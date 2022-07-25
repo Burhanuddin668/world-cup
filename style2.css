@@ -50,15 +50,17 @@ p{
     #DD0000;
     color: white;
     font-size: 18px;
-    margin-top: 30px;
     border: none;
+    margin-top: 30px;
+
+
 }
 /* blogs section */
 .match-live{
     display: flex;
     width: 1120px;
     height: 646px;
-    margin: 90px 120px;
+    margin: 130px 120px;
 }
 .menu-box{
     width: 312px;
@@ -83,9 +85,6 @@ p{
     color: #FFFFFF;
     box-shadow: none;
 }
-a{
-    text-decoration: none;
-}
 
 .blogs{
     display: grid;
@@ -94,28 +93,36 @@ a{
 }
 .blog{
     width: 245px;
-    height: 362px;
+    height: 242px;
     box-shadow: 2px 2px 2px 2px rgb(236, 235, 235);
     border-radius: 15px;
 }
 .blog-image{
     width: 100%;
 }
+
+.flags{
+    display: flex;
+    margin-left: 12px;
+    margin-bottom: 0%;
+
+}
+.flag{
+    width: 30%;
+    margin: 40px 15px;
+}
+.vs{
+    margin-top: 55px;
+}
 .blog-detail{
-    margin-left: 15px;
+ text-align: center;
+ margin-top: 0%;
 }
-img{
+.date{
+    color: gray;
+}
+.germany, .france{
     width: 100%;
-}
-.transfer{
-    padding: 5px 15px;
-}
-span{
-    margin-right: 30px;
-}
-h2{
-    text-align: center;
-    color: white;
 }
 /* footer */
 .footer{
